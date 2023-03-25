@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+.scroller {
+  width: 47vw;
+  height: 400px;
+
+  position: relative;
+  top: -15px;
+  --_spacer: 10px;
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 39%;
+
+  padding: var(--_spacer) var(--_spacer) var(--_spacer);
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+
+.element {
+  height: 360px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-rows: max-content;
+  gap: var(--_spacer);
+  padding: var(--_spacer);
+  border-radius: 5%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(65, 0, 218, 0.545);
+
+  background-color: rgba(47, 0, 255, 0.3);
+  -ms-overflow-style: none;
+
+  cursor:default;
+}
+
+.element > img {
+  inline-size: 100%;
+  aspect-ratio: 5 / 3;
+  object-fit: cover;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.contentS {
+  height: 300px;
+}
+
+.align {
+  color: darkblue;
+  font-weight: 700;
+  font-size: large;
+
+  padding: 20px;
+  position: relative;
+  top: 10px;
+
+  font-family: "Kalam", cursive;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Stdimg {
+  border-radius: 50%;
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#heading {
+  width: 100vw;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  background: rgba(66, 8, 255, 0.4);
+  color: darkblue;
+  font-family: "Acme", sans-serif;
+
+  cursor:default;
+}
+
+@media screen and (max-width: 883px) {
+  .studentCard {
+    width: 100vw;
+    height: 350px;
+    overflow-y: scroll;
+
+    border-radius: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #heading {
+    width: 47vw;
+  }
+}
+
+/* general styling */
+
+
+@media screen and (max-width: 1440px) {
+  .scroller {
+    width: 100vw;
+    position: relative;
+    top: -10px;
+  }
+  .scroller {
+    grid-auto-columns: 22%;
+  }
+}
+@media screen and (max-width: 1122px) {
+  .scroller {
+    grid-auto-columns: 27%;
+  }
+}
+@media screen and (max-width: 883px) {
+  .scroller {
+    grid-auto-columns: 39%;
+  }
+}
+@media screen and (max-width: 630px) {
+  .scroller {
+    grid-auto-columns: 59%;
+  }
+  .element {
+    overflow-y: scroll;
+  }
+}

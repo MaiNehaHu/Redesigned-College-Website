@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.scrollerBoxx {
+  height: 480px;
+  position: relative;
+  top: -10px;
+  --_spacer: 15px;
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 24%;
+
+  padding: 0 var(--_spacer) 0;
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  -ms-overflow-style: none; /* IE and Edge */
+
+  cursor: default;
+}
+
+.BOXX {
+  display: grid;
+  grid-template-rows: max-content;
+  gap: var(--_spacer);
+  padding: var(--_spacer);
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(76 0 255 / 55%);
+  background-color: rgba(47, 0, 255, 0.15);
+
+  cursor: default;
+}
+
+.FacilityPhoto > img {
+  inline-size: 100%;
+  aspect-ratio: 1/0.95;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.Description {
+  height: 100px;
+  color: darkblue;
+  font-size: 21px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Acme", sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+#Facilities > .scrollerBoxx > .BOXX > a {
+  text-decoration: none;
+}
+#FacilityBox > * {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollerBoxx {
+    height: 450px;
+
+    grid-auto-columns: 22%;
+  }
+}
+@media screen and (max-width: 1368px) {
+  .scrollerBoxx {
+    grid-auto-columns: 37%;
+  }
+
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.6;
+  }
+  
+}
+@media screen and (max-width: 1235px) {
+  .scrollerBoxx {
+    grid-auto-columns: 37%;
+  }
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.65;
+  }
+}
+@media screen and (max-width: 1122px) {
+  .scrollerBoxx {
+    grid-auto-columns: 42%;
+  }
+}
+@media screen and (max-width: 1049px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.73;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.75;
+  }
+}
+@media screen and (max-width: 849px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.85;
+  }
+}
+@media screen and (max-width: 790px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.9;
+  }
+}
+@media screen and (max-width: 736px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/1.001;
+  }
+  .scrollerBoxx {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 666px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/1;
+  }
+}
+@media screen and (max-width: 630px) {
+  .scrollerBoxx {
+    grid-auto-columns: 58%;
+  }
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.83;
+  }
+}
+@media screen and (max-width: 580px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.8;
+  }
+}
+@media screen and (max-width: 530px) {
+  .scrollerBoxx {
+    grid-auto-columns: 58%;
+  }
+  .FacilityPhoto > img {
+    inline-size: 100%;
+    aspect-ratio: 1 / 0.9;
+  }
+  .scrollerBoxx {
+    padding: 0px 10px 0px;
+    height: 410px;
+  }
+}
+@media screen and (max-width: 488px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/0.95;
+  }
+  .scrollerBoxx{
+    height: 390px;
+  }
+}
+@media screen and (max-width: 488px) {
+  .FacilityPhoto > img {
+    aspect-ratio: 1/1;
+  }
+  .scrollerBoxx{
+    height: 380px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  #Facilities {
+    position: relative;
+    top: -10px;
+  }
+}
+@media screen and (max-width: 1166px) {
+  #Facilities {
+    position: relative;
+    top: 40px;
+  }
+}
+@media screen and (max-width: 983px) {
+  #Facilities {
+    position: relative;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 930px) {
+  #Facilities {
+    position: relative;
+    top: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #Facilities {
+    position: relative;
+    top: 90px;
+  }
+}
+@media screen and (max-width: 885px) {
+  #Facilities {
+    position: relative;
+    top: 290px;
+  }
+}
+@media screen and (max-width: 774px) {
+  #Facilities {
+    position: relative;
+    top: 305px;
+  }
+}
+@media screen and (max-width: 627px) {
+  #Facilities {
+    position: relative;
+    top: 350px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #Facilities {
+    position: relative;
+    top: 800px;
+  }
+}
+@media screen and (max-width: 422px) {
+  #Facilities {
+    position: relative;
+    top: 800px;
+  }
+}

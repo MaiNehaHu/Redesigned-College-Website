@@ -1,0 +1,89 @@
+#companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 53vw;
+}
+
+#headingofCompanies {
+  width: 100vw;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  background: rgba(66, 8, 255, 0.392);
+  color: darkblue;
+  font-family: "Acme", sans-serif;
+
+  cursor:default;
+}
+@media screen and (min-width: 1442px) {
+  #headingofCompanies {
+    width: 100vw;
+  }
+}
+#companies a {
+  text-decoration: none;
+
+  font-weight: 700;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 5px;
+  width: 49%;
+
+  background: linear-gradient(to right, #6f00ff 0%, #00fff7 100%);
+  color: white;
+  font-family: "Kalam", cursive;
+}
+
+#companies a:hover {
+  animation: Fill 0.5s linear 1 forwards;
+}
+@keyframes Fill {
+  0% {
+    background: linear-gradient(to right,#6f00ff 20%, #00fff7 90%);
+  }
+  25% {
+    background: linear-gradient(to right,#6f00ff 30%, #00fff7);
+  }
+  50% {
+    background: linear-gradient(to right,#6f00ff 50%, #00fff7 );
+  }
+  75% {
+    background: linear-gradient(to right,#6f00ff 80%, #00fff7 );
+  }
+  100% {
+    background: linear-gradient(
+      to right,
+      #6f00ff 0%,
+      #6f00ff 50%,
+      #6f00ff 100%
+    );
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #companies {
+    width: 100vw;
+  }
+  #companies a {
+    width: 32.5%;
+  }
+}
+
+@media screen and (max-width: 883px) {
+  #companies {
+    width: 100vw;
+  }
+  #companies a {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #companies a {
+    width: 99%;
+    font-size: small;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+/*scroll for body*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*Scrolls in components*/
+::-webkit-scrollbar{ 
+  height: 15px;
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  border-radius: 10vw;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10vw;
+  background-color: navy;
+  border-style:groove;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(12, 12, 252);
+}

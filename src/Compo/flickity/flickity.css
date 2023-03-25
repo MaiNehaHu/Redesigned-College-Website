@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel {
+  background: #eee;
+}
+
+.carousel-item > img{
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+#carouselExampleControls{
+  position: relative;
+  top: 30px;
+}
+.pagename{
+  margin: 0;
+  padding: 10px;
+  color: white;
+  background:linear-gradient(to left, crimson, rgb(20, 102, 255));
+  font-weight: bolder;
+  text-align: center;
+
+  cursor:default;
+  font-family: "kalam",cursive;
+}
+
+@media screen and (max-width:530px) {
+  .pagename{
+    font-size: 10px;
+    letter-spacing: 0.9px;
+  }
+}

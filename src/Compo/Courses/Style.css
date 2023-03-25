@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.scrollerBox {
+  height: 480px;
+  --_spacer: 15px;
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 24%;
+
+  padding: 0 var(--_spacer) 0;
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  -ms-overflow-style: none; /* IE and Edge */
+
+  cursor: default;
+}
+
+.ele {
+  height: 440px;
+  display: grid;
+  grid-template-rows: max-content;
+  gap: var(--_spacer);
+  padding: var(--_spacer);
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(76 0 255 / 55%);
+  background-color: rgba(47, 0, 255, 0.15);
+
+  cursor: default;
+}
+
+.ele > img {
+  inline-size: 100%;
+  aspect-ratio: 1 / 0.95;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.Courses >  *{
+  text-decoration: none;
+}
+@media screen and (max-width: 1440px) {
+  .scrollerBox {
+    height: 400px;
+  }
+  .ele {
+    height: 370px;
+    margin-bottom: 5px;
+  }
+  .scrollerBox {
+    grid-auto-columns: 22%;
+  }
+}
+@media screen and (max-width: 1122px) {
+  .scrollerBox {
+    grid-auto-columns: 27%;
+  }
+  .ele {
+    height: 360px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 883px) {
+  .scrollerBox {
+    grid-auto-columns: 39%;
+    height: 440px;
+  }
+  .ele {
+    height: 410px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .scrollerBox {
+    grid-auto-columns: 58%;
+    height: 440px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .scrollerBox {
+    grid-auto-columns: 58%;
+    height: 350px;
+  }
+  .ele {
+    height: 320px;
+  }
+  .ele > img {
+    inline-size: 100%;
+    aspect-ratio: 1 / 0.8;
+  }
+  .scrollerBox {
+    padding: 0px 10px 0px;
+  }
+}
+
+.Component > .scrollerBox > .elem > a {
+  text-decoration: none;
+}
+#courseName {
+  color: darkblue;
+  font-size: 21px;
+
+  font-family: "Acme", sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+.Component {
+  position: relative;
+  top: 15px;
+}
+@media screen and (max-width: 1440px) {
+  .Component {
+    position: relative;
+    top: -10px;
+  }
+}
+@media screen and (max-width: 1358px) {
+  .Component {
+    position: relative;
+    top: 15px;
+  }
+}
+@media screen and (max-width: 1166px) {
+  .Component {
+    position: relative;
+    top: 35px;
+  }
+}
+@media screen and (max-width: 936px) {
+  .Component {
+    position: relative;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .Component {
+    position: relative;
+    top: 80px;
+  }
+}
+@media screen and (max-width: 883px) {
+  .Component {
+    position: relative;
+    top: 260px;
+  }
+}
+@media screen and (max-width: 772px) {
+  .Component {
+    position: relative;
+    top: 280px;
+  }
+}
+@media screen and (max-width: 626px) {
+  .Component {
+    position: relative;
+    top: 300px;
+  }
+}
+@media screen and (max-width: 618px) {
+  .Component {
+    position: relative;
+    top: 330px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Component {
+    position: relative;
+    top: 765px;
+  }
+}
+

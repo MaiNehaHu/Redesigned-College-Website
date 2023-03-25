@@ -1,0 +1,68 @@
+.bodyy {
+    position: relative;
+    top: 40px;
+    cursor: default;
+    margin-bottom: 30px;
+  
+    /*horizontal overflow*/
+    min-width: 100vw;
+    overflow-x: hidden;
+  }
+  @media screen and (min-width: 1100px) {
+    .bodyy {
+      min-height: 431px;
+    }
+  }
+  @media screen and (max-width: 1100px) and (min-width:530px) {
+    .bodyy {
+      min-height: 365px;
+    }
+  }
+  @media screen and (max-width:530px) {
+    .bodyy {
+      min-height: 420px;
+    }
+  }
+  .heading {
+    width: 100vw;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 5px 0px 5px;
+    color: navy;
+    background: rgb(157, 127, 255);
+    font-family: "Acme", sans-serif;
+    background: linear-gradient(to right, rgb(255, 0, 166), rgb(255, 183, 0));
+  }
+  .heads {
+    width: 100vw;
+    text-align: center;
+    font-weight: 700;
+    color: blue;
+    font-size: 26px;
+    padding: 10px 0px 10px;
+    font-family: "Acme", sans-serif;
+  }
+  
+  #line1 {
+    padding: 40px 0px 0px;
+  }
+  .pricidesk {
+    padding: 0px 0px 30px;
+  }
+  .lines {
+    width: 100vw;
+    word-wrap: break-word;
+    word-break: keep-all;
+    font-family: "Acme", sans-serif;
+    font-size: 20px;
+    padding: 5px 20px 0px;
+    color: navy;
+  
+    word-spacing: 7px;
+    letter-spacing: 0px;
+  }
+  .displayblock {
+    position: relative;
+    top: -8px;
+  }

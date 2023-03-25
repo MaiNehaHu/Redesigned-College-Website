@@ -1,0 +1,173 @@
+
+/*why mlritm*/
+.displaybox {
+  width: 100vw;
+  position: relative;
+  top: -9px;
+  right: 30px;
+  padding: 20px 0px 20px;
+}
+#ans {
+  padding: 20px 0px 20px;
+}
+#ans > ul {
+  list-style: none;
+}
+#ans > ul > li {
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ans > ul > li:hover {
+  color: red;
+  font-size: 25px;
+}
+#ans > ul > li:hover::before,
+#ans > ul > li:hover::after {
+  content: "✨";
+}
+/*Brochure*/
+#brochure > .displayblock > a {
+  width: 100vw;
+  padding: 30px 0px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Amission procedure*/
+.Navtable {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px 10px;
+}
+.Navtable > table {
+  width: 100vw;
+  background-color: rgb(208, 233, 255);
+}
+.Navtable > table > thead > *,
+.Navtable > table > tbody > tr > * {
+  border: 2px solid navy;
+  cursor: context-menu;
+  text-align: start;
+  font-family: "Acme", sans-serif;
+  color: darkblue;
+  padding: 5px 0px 5px;
+}
+
+#AdmissionProc > .lines > img {
+  /*admission procedure image*/
+  width: 40vw;
+  float: right;
+  margin: 0px 5px 5px;
+  object-fit: cover;
+}
+
+/*Admissions*/
+#Admission > .displayblock > img {
+  width: 100vw;
+}
+
+/*Courses*/
+.Navtable {
+  width: 100vw;
+  padding: 10px 0px 10px;
+  display: flex;
+  justify-content: center;
+}
+.Navtable > table {
+  width: 90vw;
+  font-family: "kalam", cursive;
+  color: darkblue;
+  background-color: rgb(208, 233, 255);
+  text-align: start;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.Navtable > table > thead > *,
+.Navtable > table > tbody > tr > * {
+  border: 2px solid navy;
+  padding: 5px 7px 5px;
+}
+
+.Navtable > table > thead > * {
+  font-size: 24px;
+}
+.Navtable > table > tbody > tr > * {
+  font-size: 17px;
+}
+.Navtable > table > tbody > tr > td > * {
+  text-decoration: none;
+  color: navy;
+}
+.Navtable > table > tbody > tr > td > *:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+/*how to apply*/
+#arrange {
+  display: flex;
+  flex-direction: row;
+}
+#left > * {
+  width: 60vw;
+}
+#right > * {
+  width: 35vw;
+}
+
+@media screen and (max-width: 682px) and (min-width: 418px) {
+  /*why mlritm*/
+  #ans > ul > li {
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ans > ul > li:hover {
+    color: red;
+    font-size: 17px;
+  }
+  .lines > img {
+    /*admission image*/
+    width: 50vw;
+  }
+  .Navtable > table > thead > * {
+    font-size: 20px;
+  }
+  .Navtable > table > tbody > tr > * {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 417px) and (min-width: 0px) {
+  #ans > ul > li {
+    height: 25px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ans > ul > li::before,
+  #ans > ul > li::after {
+    content: "✨";
+  }
+  #ans > ul > li:hover {
+    color: navy;
+    font-size: 13px;
+  }
+  .lines > img {
+    /*admission procedure image*/
+    width: 40vw;
+  }
+  .Navtable > table > thead > * {
+    font-size: 15px;
+  }
+  .Navtable > table > tbody > tr > * {
+    font-size: 12px;
+  }
+}

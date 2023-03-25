@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#PackagesOfferedByCompanies{
+  height: 360px;
+  position: relative;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width:1440px) {
+  #PackagesOfferedByCompanies{
+    height: 400px;
+  }
+}
+
+.packagedisplay { /*texts*/
+  font-weight: 900;
+  font-size: 30px;
+  margin: 20px;
+  position: relative;
+  bottom: -8vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Mukta', sans-serif;
+  
+}
+@media screen and (max-width:1440px) {
+  .packagedisplay{ /*texts*/
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .Photo {
+    width: 100vw;
+    height: 380px;
+    border-radius: 0;
+  }
+}
+
+
+@media screen and (min-width: 883px) and (max-width: 1440px) {
+  .packagedisplay {
+    font-weight: 800;
+  }
+}
+@media screen and (max-width:825px) {
+  .packagedisplay{
+    font-size: 25px;
+    font-weight: 800;
+    top:70px;
+  }
+}
+
+@media screen and (max-width:458px) {
+  .packagedisplay{
+    font-size: 21px;
+  }
+}
+#head{
+  width: 100vw;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  background: rgba(66, 8, 255, 0.4);
+  color: darkblue;
+  font-family: "Acme", sans-serif;
+
+  position: relative;
+  top: -10px;
+
+  cursor:default;
+}
+@media screen and (min-width:1440px) {
+#head{
+  width: 47vw;
+  top: -10px;
+}
+}
+
+.scrollers {
+  width: 47vw;
+  --_spacer: 10px;
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 39%;
+
+  padding: 0 var(--_spacer) var(--_spacer);
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+@media screen and (max-width:1440px){
+  .scrollers{
+    width: 100vw;
+  }
+}
+
+.elements {
+  height: 290px;
+  display: grid;
+  grid-template-rows: max-content;
+  gap: var(--_spacer);
+  padding: var(--_spacer);
+  cursor:default;
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(34, 0, 255, 0.3);
+  background: linear-gradient(to right, #7570ff93 0%, #ff4141a3 100%);
+}
+
+.elements > img {
+  inline-size: 100%;
+  aspect-ratio: 5 / 3;
+  object-fit: cover;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}

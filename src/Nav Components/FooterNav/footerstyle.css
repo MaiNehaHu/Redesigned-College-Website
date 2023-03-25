@@ -1,0 +1,15 @@
+/*Design for the follow us component*/
+.FooterBox {
+  min-height: 55px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  background-color: navy;
+
+  position: relative;
+  top: 11px;
+  cursor: default;
+}

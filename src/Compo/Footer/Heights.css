@@ -1,0 +1,40 @@
+@media screen and (max-width: 1334px) {
+  .Contactus {
+    height: auto;
+  }
+}
+@media screen and (max-width: 752px) {
+  .Logins,
+  .QuickLinks {
+    height: 220px;
+  }
+  .Campuslife,
+  .Academics {
+    height: 255px;
+    align-items: flex-start !important;
+  }
+  .Contactus {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Campuslife,
+  .QuickLinks {
+    height: 200px;
+  }
+  .Academics,
+  .Contactus
+  .Logins {
+    height: auto;
+  }
+}
+@media screen and (max-width: 441px) {
+  .Campuslife,
+  .Academics,
+  .Contactus,
+  .QuickLinks,
+  .Logins {
+    height: fit-content;
+  }
+}

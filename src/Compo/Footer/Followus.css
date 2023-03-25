@@ -1,0 +1,53 @@
+/*design for follow us component*/
+.Follow {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+  cursor: pointer;
+}
+/*Words*/
+.Follow > div > p {
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+.Follow > div > * {
+  margin: 5px 20px 0px;
+}
+.Follow > div > i:hover {
+  width: auto;
+}
+/*for the icons used*/
+.fa {
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+
+  padding: 2px 2px 2px;
+}
+.fa-instagram {
+  font-size: 37px;
+  padding: 0px 0px 0px;
+  background: linear-gradient(to bottom right, red, blue);
+}
+.fa-youtube {
+  color: red;
+  background-color: white;
+}
+.fa-twitter{
+  background-color: white;
+  color: blue;
+}
+.fb{
+  font-size: 38px;
+}
+
+@media screen and (max-width:416px) {
+  #message{
+    font-size: 19px;
+  }
+}

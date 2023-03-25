@@ -1,0 +1,158 @@
+body {
+  overflow: visible;
+}
+.card {
+  background-color: navy;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 93vw;
+  font-family: "Acme", sans-serif;
+}
+.title {
+  font-size: 200%;
+  font-weight: bolder;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  word-break: break-all;
+}
+.content {
+  padding: 5px;
+  word-break: normal;
+}
+#aishecontent {
+  align-self: center;
+}
+#aishe {
+  /*iner image*/
+  padding: 2%;
+  width: fit-content;
+  height: 20vw;
+  object-fit: contain;
+}
+#link {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+}
+#login {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.login {
+  margin: 5px;
+  height: 40px;
+  width: 110px;
+  padding: 0px;
+  border: 0px solid blue;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s linear;
+}
+.login:hover {
+  background-color: white;
+  color: navy;
+  border-radius: 5px;
+}
+#iqacButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.iqacButtons {
+  margin: 5px;
+  height: 40px;
+  width: 100%;
+  padding: 0px;
+  border: 0px solid blue;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s linear;
+}
+.iqacButtons:hover {
+  background-color: white;
+  color: darkblue;
+  border-radius: 5px;
+}
+#naacimages,
+#nbaimages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.naacimg,
+.nbaimg {
+  width: min-content;
+  margin: 5px;
+  width: 35vw;
+}
+.AlumniImage {
+  margin: 20px 10px 10px;
+  width: 700px;
+  height: 280px;
+  float: right;
+  object-fit: cover;
+}
+/* login */
+.login >*{
+  text-decoration: none;
+}
+@media screen and (max-width: 1160px) {
+  .AlumniImage {
+    width: 90vw;
+    float: none;
+    height: 290px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .AlumniImage {
+    height: 210px;
+  }
+}
+@media screen and (max-width: 588px) {
+  .AlumniImage {
+    height: 190px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .AlumniImage {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .title {
+    font-size: 130%;
+  }
+  .content {
+    font-size: small;
+    padding: 2px;
+  }
+  .login {
+    margin: 2px;
+    height: 30px;
+    width: 85px;
+    font-size: small;
+    cursor: pointer;
+  }
+  .iqacButtons {
+    margin: 2px;
+    height: 25px;
+    width: 100%;
+    font-size: small;
+    cursor: pointer;
+  }
+}

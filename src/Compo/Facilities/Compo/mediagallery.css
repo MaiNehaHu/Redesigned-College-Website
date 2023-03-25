@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.scroll {
+  height: 460px;
+  --_spacer: 20px;
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+
+  padding: var(--_spacer) var(--_spacer) 0;
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.pics {
+  height: 400px;
+  width: fit-content;
+  display: grid;
+  grid-template-rows: max-content;
+  gap: var(--_spacer);
+  border-radius: 5%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px grey;
+  -ms-overflow-style: none;
+
+  cursor: default;
+}
+.pics > img {
+  height: 400px;
+  object-fit: cover;
+}
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+}
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+/* Hostel */
+#hostel > .displayblock > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+#hostel > .displayblock > div > img {
+  height: 300px;
+  object-fit: cover;
+  width: fit-content;
+  margin: 20px 20px 20px;
+}
+/* Transport */
+#transport>.displayblock>div{
+  display: flex;
+  justify-content: center;
+}
+#transport>.displayblock>div>img {
+  width: 90vw;
+}
+/* library */
+#lib > .displayblock > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#lib > .displayblock > div > img{
+  height: 45vh;
+  width: 45vw;
+  object-fit: cover;
+  margin-inline: 10px;
+}
+
+@media screen and (max-width:650px) {
+  #lib > .displayblock > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #lib > .displayblock > div > img{
+    height: 45vh;
+    width: 95vw;
+    object-fit: cover;
+    margin: 10px 0 0;
+  }
+}

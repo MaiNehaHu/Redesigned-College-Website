@@ -1,0 +1,22 @@
+@media screen and (min-width: 1103px) {
+  .Height {
+  height: 590px;
+  align-items: flex-start;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .Height {
+  height: 550px;
+  align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Height {
+    height: auto;
+    align-items: flex-start;
+  }
+  .EventCompHeigh{
+    height: auto;
+  }
+}

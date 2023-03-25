@@ -1,0 +1,70 @@
+.Contentblock {
+  position: relative;
+  top: -9px;
+  width: 100vw;
+  height: 500px;
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/001/842/827/small/light-multicolor-background-with-circles-vector.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.log > .Contentblock > p {
+  text-align: center;
+  width: 100vw;
+}
+.log > .Contentblock {
+  width: 100vw;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.log > .Contentblock > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding: 10px 5px 10px;
+  margin: 5px 5px 5px;
+  width: 190px;
+  border-radius: 10px;
+  border: 0px;
+
+  color: white;
+  background-color: navy;
+  box-shadow: 3px 3px 3px black;
+  font-size: larger;
+
+  font-family: "Acme",sans-serif;
+  letter-spacing: 0.6px;
+}
+
+.log > .Contentblock > button:hover {
+  background-color: blue;
+  box-shadow: 5px 5px 5px black;
+}
+
+@media screen and (max-width: 530px) {
+  .Contentblock {
+    background: url("https://cdn-icons-png.flaticon.com/512/5087/5087579.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .log > .Contentblock {
+    width: 100vw;
+    height: 340px;
+  }
+  .log > .Contentblock > button {
+    padding: 5px 3px 5px;
+    width: 150px;
+    font-size: medium;
+  }
+}
+
+.Contentblock > button> *{
+  text-decoration: none;
+  color: white;
+}

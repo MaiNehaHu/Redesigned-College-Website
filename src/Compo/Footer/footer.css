@@ -1,0 +1,67 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: navy;
+
+  cursor: default;
+}
+.FooterHeading {
+  font-weight: 800;
+  font-family: "Mukta", sans-serif;
+  color: white;
+}
+.OneBox{
+    height: 260px;
+    align-items: flex-start !important;
+    margin: 30px 30px 10px;
+}
+.OneBox > a,.OneBox>p, .OneBox>a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-family: "Acme", sans-serif;
+}
+.OneBox >a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1169px) {
+  .FooterContainer{
+    position: relative;
+    top:50px;
+  }
+}
+
+@media screen and (max-width:935px) {
+  .FooterContainer{
+    position: relative;
+    top:90px;
+  }
+}
+@media screen and (max-width:885px) {
+  .FooterContainer{
+    position: relative;
+    top:300px;
+  }
+}
+@media screen and (max-width:634px) {
+  .FooterContainer{
+    position: relative;
+    top:360px;
+  }
+}
+@media screen and (max-width:600px) {
+  .FooterContainer{
+    position: relative;
+    top:800px;
+  }
+}
+@media screen and (max-width:426px) {
+  .FooterContainer{
+    position: relative;
+    top:850px;
+  }
+}

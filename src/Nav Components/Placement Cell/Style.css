@@ -1,0 +1,8 @@
+
+#Staticstics > .displayblock > div {
+  display: flex;
+  justify-content: center;
+}
+#Staticstics > .displayblock > div > img {
+  width: 100vw;
+}

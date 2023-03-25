@@ -1,0 +1,81 @@
+
+#real {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0px;
+  cursor: pointer;
+
+  box-shadow: 0px 1px 15px 0.5px black;
+
+  position: relative;
+  top: 15px;
+}
+
+.realnav {
+  padding: 9px;
+  margin: 2px;
+
+  background-color: white;
+
+  text-decoration: none;
+
+  font-weight: 800;
+  font-family: 'Acme', sans-serif;
+
+  background: linear-gradient(to right, rgb(37, 37, 253) 0%, #ff1e00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: rgb(103, 108, 252);
+}
+
+.dropdown-item {
+  font-weight: bolder;
+  color: white;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active {
+  background: linear-gradient(to right, #0800ff 0%, #ff1e00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mega-box {
+  background-color: rgb(173, 173, 229);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  margin: 4px;
+}
+.mega-links {
+  list-style-type: none;
+}
+.row header {
+  font-size: 20px;
+}
+.row .mega-links {
+  border-left: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.nav-link >a{
+  text-decoration: none;
+}
+@media screen and (max-width: 530px) {
+  .realnav {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 800;
+  }
+
+  .dropdown-item {
+    font-size: 12px;
+  }
+}

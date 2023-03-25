@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+#Twoboxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box1 {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 15px;
+}
+@media screen and (min-width:1440px) {
+  .box1 {
+    position: relative;
+    top: -7.5px;
+  }
+}
+
+#Pconatiner {
+  height: 910px;
+  position: relative;
+  top: 30px;
+}
+@media screen and (max-width: 1440px) {
+  #Pconatiner {
+    height: 1500px;
+  }
+}
+
+#headingOfCompo {
+  width: 100vw;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  background: rgb(157, 127, 255);
+  color: rgb(0, 0, 115);
+  font-family: "Acme", sans-serif;
+  margin: 0px 0px 8px;
+
+  cursor:default;
+}
+@media screen and (max-width:416px) {
+  #headingOfCompo{
+    font-size: 25px;
+  }
+}
+#counter {
+  margin-left: 15px;
+}

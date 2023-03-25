@@ -1,0 +1,70 @@
+.nbaBtn {
+  margin: 5px;
+  height: 40px;
+  width: 110px;
+  padding: 0px;
+  border: 0px solid darkblue;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease;
+}
+.nbaBtn:hover {
+  background-color: white;
+  color: darkblue;
+  border-radius: 5px;
+}
+@media screen and (max-width: 530px) {
+  .nbaBtn {
+    margin: 2px;
+    height: 30px;
+    width: 80px;
+    font-size: small;
+    cursor: pointer;
+  }
+}
+.nbatable >table{
+  width: 90vw;
+}
+.nbatable > h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.download{
+ text-align: center;
+}
+.download > a {
+  text-decoration: none;
+  color: white;
+}
+.download > a:hover {
+  text-decoration: underline;
+  color: cornsilk;
+}
+.nbatable > table > thead {
+  font-size: 21px;
+}
+.nbatable > table > *,
+.nbatable > table > tbody > tr > * {
+  border: 2px solid white;
+  padding: 3px 5px 3px;
+  cursor: default;
+  text-align: flex-start;
+  color: white;
+}
+.nbatable > table > thead {
+  text-align: center;
+}
+.nbatable > table > tbody > tr > *{
+  word-spacing: 5px;
+}
+@media screen AND (MAX-WIDTH:530PX) {
+  .nbatable > table > tbody > tr > *{
+    font-size: 12px;
+  }
+}

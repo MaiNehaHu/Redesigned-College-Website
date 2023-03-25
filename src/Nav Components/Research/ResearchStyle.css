@@ -1,0 +1,30 @@
+/*Research Objectives*/
+#ResearchObj > .lines > ul > li {
+  margin-top: 15px;
+}
+/*Supervisors*/
+
+/*publications*/
+#publication {
+  margin: 30px 0px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Buttonn {
+  background-color: navy;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid navy;
+  padding: 7px 17px 7px;
+  margin: 0px 6px 6px;
+  font-weight: bolder;
+}
+.Buttonn:hover {
+  background-color: white;
+  color: navy;
+  transition: all 0.4s linear;
+}
+.btnss {
+  background-color: rgb(183, 183, 255);
+}

@@ -1,0 +1,34 @@
+#cse > .displayblock > #cse,
+#it > .displayblock > #cse,
+#ece > .displayblock > #ece,
+#eee > .displayblock > #eee,
+#aiml > .displayblock > #aiml,
+#cyber > .displayblock > #cyber,
+#civil > .displayblock > #mech,
+#mech > .displayblock > #mech,
+#mba > .displayblock > #mba {
+  display: block;
+}
+.coursee > .displayblock > div > img {
+  width: 40vw;
+  height: 300px;
+  object-fit: cover;
+  float: right;
+  margin: 5px 15px 0px;
+}
+@media screen and (max-width: 540px) {
+  #cse > .displayblock > div > img,
+  #it > .displayblock > div > img,
+  #mech > .displayblock > div > img,
+  #ece > .displayblock > div > img,
+  #eee > .displayblock > div > img,
+  #aiml > .displayblock > div > img,
+  #cyber > .displayblock > div > img,
+  #civil > .displayblock > div > img,
+  #mba > .displayblock > div > img {
+    width: 50vw;
+    height: 200px;
+    float: right;
+    margin: 5px 15px 0px;
+  }
+}

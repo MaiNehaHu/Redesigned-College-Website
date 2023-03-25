@@ -1,0 +1,37 @@
+/* Results */
+.branches {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+#resultTable > table {
+  margin-top: 20px;
+}
+#resultTable > table > thead > tr > *,
+#resultTable > table > tbody > tr > * {
+  border: 2px solid navy;
+  padding: 5px 15px 5px;
+  font-family: "Acme", sans-serif;
+  color: darkblue;
+}
+#resultTable > table > tbody > tr > td > * {
+  text-decoration: none;
+  color: darkblue;
+}
+#resultTable > table > tbody > tr > td > *:hover {
+  text-decoration: underline;
+  color: red;
+}
+/* Discipline */
+#discipline > .displayblock > .lines > ul > li {
+  padding: 6px 0px 6px;
+  word-spacing: 3px;
+}
+/* schedule */
+#schedule > .displayblock > #notification {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}

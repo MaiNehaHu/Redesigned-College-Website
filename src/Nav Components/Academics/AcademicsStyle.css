@@ -1,0 +1,40 @@
+
+/*Syllabus*/
+#syllabus > .displayblock > img {
+  width: 50vw;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#syllabus > .displayblock > a {
+  text-decoration: none;
+}
+#syllabus > .displayblock > a:hover {
+  text-decoration: underline;
+}
+#syllabus > .displayblock > img {
+  height: 200px;
+  object-fit: cover;
+}
+.head1 {
+  text-align: start;
+  margin-left: 10px;
+}
+@media screen and (max-width: 462px) {
+  #syllabus > .displayblock > img {
+    width: 50vw;
+    height: 7vh;
+    object-fit: cover;
+  }
+}
+
+#R20Sylla > table > tbody > tr > td > a,
+#R20CourseStruc > table > tbody > tr > td > a {
+  text-decoration: none;
+  color: navy;
+}
+#R20Sylla > table > tbody > tr > td > a:hover,
+#R20CourseStruc > table > tbody > tr > td > a:hover {
+  text-decoration: underline;
+  color: red;
+}

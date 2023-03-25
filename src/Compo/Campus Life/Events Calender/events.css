@@ -1,0 +1,139 @@
+.EventsBox {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 9px;
+  cursor: pointer;
+}
+#TopHeading {
+  width: 50vw;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+
+  background: rgba(66, 8, 255, 0.4);
+  color: darkblue;
+  font-family: "Acme", sans-serif;
+  cursor: default;
+}
+@media screen and (max-width: 900px) {
+  #TopHeading {
+    width: 100vw;
+  }
+}
+#datebox {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 5px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right bottom,
+    rgb(0, 44, 189),
+    rgb(159, 75, 255) 
+  );
+  color: white;
+
+  padding: 0 5px 0;
+}
+#datebox:hover {
+  animation: Rotate 0.5s linear infinite forwards;
+}
+
+@keyframes Rotate {
+  0% {
+    background: linear-gradient(
+      to right bottom,
+      rgb(0, 44, 189),
+      rgb(159, 75, 255)
+    );
+  }
+  12.5% {
+    background: linear-gradient(to bottom, rgb(0, 44, 189), rgb(159, 75, 255));
+  }
+  25% {
+    background: linear-gradient(
+      to left bottom,
+      rgb(0, 44, 189),
+      rgb(159, 75, 255)
+    );
+  }
+  37.5% {
+    background: linear-gradient(to left, rgb(0, 44, 189), rgb(159, 75, 255));
+  }
+  50% {
+    background: linear-gradient(
+      to left top,
+      rgb(0, 44, 189),
+      rgb(159, 75, 255)
+    );
+  }
+  62.5% {
+    background: linear-gradient(to top, rgb(0, 44, 189), rgb(159, 75, 255));
+  }
+  75% {
+    background: linear-gradient(
+      to right top,
+      rgb(0, 44, 189),
+      rgb(159, 75, 255)
+    );
+  }
+  87.5% {
+    background: linear-gradient(to right, rgb(0, 44, 189), rgb(159, 75, 255));
+  }
+  100% {
+    background: linear-gradient(
+      to right bottom,
+      rgb(0, 44, 189),
+      rgb(159, 75, 255)
+    );
+  }
+}
+#date {
+  margin: 9px 0 0;
+  font-weight: 700;
+}
+#month {
+  font-weight: 700;
+}
+#EventName {
+  font-family: "Acme", sans-serif;
+  color: navy;
+  height: 100%;
+  width: 88vw;
+  font-size: large;
+  word-wrap: break-word;
+
+  margin-right: 5px;
+}
+#EventName:hover {
+  color: blue;
+}
+.eventBtn > a {
+  text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+  .EventsBox {
+    width: 100vw;
+  }
+  .eventBtn {
+    margin-inline: 10px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .EventsBox {
+    width: 97vw;
+  }
+  .eventBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 530px) {
+  #EventName,
+  #datebox {
+    font-size: smaller;
+  }
+}
