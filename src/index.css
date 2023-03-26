@@ -5,7 +5,7 @@
 }
 body {
   -ms-overflow-style: none; /* IE and Edge */
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 /*scroll for body*/

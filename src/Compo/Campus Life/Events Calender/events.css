@@ -101,7 +101,7 @@
   font-family: "Acme", sans-serif;
   color: navy;
   height: 100%;
-  width: 88vw;
+  min-width: 200px;
   font-size: large;
   word-wrap: break-word;
 
@@ -115,16 +115,13 @@
 }
 @media screen and (max-width: 900px) {
   .EventsBox {
-    width: 100vw;
+    width: 100%;
   }
   .eventBtn {
     margin-inline: 10px;
   }
 }
 @media screen and (max-width: 630px) {
-  .EventsBox {
-    width: 97vw;
-  }
   .eventBtn {
     display: flex;
     align-items: center;
