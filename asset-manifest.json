@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Redesigned-College-Website/static/css/main.5e8409dd.css",
+    "main.css": "/Redesigned-College-Website/static/css/main.7a23a1c5.css",
     "main.js": "/Redesigned-College-Website/static/js/main.2431c39c.js",
     "static/js/787.9ce9f379.chunk.js": "/Redesigned-College-Website/static/js/787.9ce9f379.chunk.js",
     "index.html": "/Redesigned-College-Website/index.html",
-    "main.5e8409dd.css.map": "/Redesigned-College-Website/static/css/main.5e8409dd.css.map",
+    "main.7a23a1c5.css.map": "/Redesigned-College-Website/static/css/main.7a23a1c5.css.map",
     "main.2431c39c.js.map": "/Redesigned-College-Website/static/js/main.2431c39c.js.map",
     "787.9ce9f379.chunk.js.map": "/Redesigned-College-Website/static/js/787.9ce9f379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e8409dd.css",
+    "static/css/main.7a23a1c5.css",
     "static/js/main.2431c39c.js"
   ]
 }
