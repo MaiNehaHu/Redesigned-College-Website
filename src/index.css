@@ -1,11 +1,5 @@
-* {
-  margin: 0px;
-  box-sizing: border-box;
-}
 body {
   -ms-overflow-style: none; /* IE and Edge */
-  min-width: 100vw;
-  overflow-x: hidden;
 }
 /*scroll for body*/
 body::-webkit-scrollbar {
