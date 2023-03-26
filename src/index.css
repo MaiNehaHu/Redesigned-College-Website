@@ -19,10 +19,10 @@ body::-webkit-scrollbar {
   width: 15px;
 }
 ::-webkit-scrollbar-track{
-  border-radius: 10vw;
+  border-radius: 0.5rem;
 }
 ::-webkit-scrollbar-thumb{
-  border-radius: 10vw;
+  border-radius: 0.5rem;
   background-color: navy;
   border-style:groove;
 }
