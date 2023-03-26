@@ -1,10 +1,11 @@
 * {
   margin: 0px;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
   -ms-overflow-style: none; /* IE and Edge */
-  min-width: 100vw;
+  width: 100vw;
   overflow-x: hidden;
 }
 /*scroll for body*/
