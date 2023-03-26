@@ -141,7 +141,7 @@ body {
 }
 @media screen and (max-width: 630px) {
   .scroller {
-    grid-auto-columns: 59%;
+    grid-auto-columns: 72%;
   }
   .element {
     overflow-y: scroll;

@@ -22,11 +22,11 @@
   }
 }
 #datebox {
-  width: 20vw;
+  min-width: 120px;
   display: flex;
   flex-direction: column;
 
-  margin-right: 5px;
+  margin: 0px 5px 6px;
   border-radius: 50%;
   background: linear-gradient(
     to right bottom,
@@ -35,7 +35,7 @@
   );
   color: white;
 
-  padding: 0 5px 0;
+  padding: 5px 5px 5px;
 }
 #datebox:hover {
   animation: Rotate 0.5s linear infinite forwards;
@@ -90,10 +90,7 @@
     );
   }
 }
-#date {
-  margin: 9px 0 0;
-  font-weight: 700;
-}
+
 #month {
   font-weight: 700;
 }
@@ -101,7 +98,6 @@
   font-family: "Acme", sans-serif;
   color: navy;
   height: 100%;
-  min-width: 200px;
   font-size: large;
   word-wrap: break-word;
 

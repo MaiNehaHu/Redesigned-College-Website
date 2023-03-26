@@ -170,13 +170,11 @@ body {
   .scrollerBoxx{
     height: 390px;
   }
-}
-@media screen and (max-width: 488px) {
   .FacilityPhoto > img {
     aspect-ratio: 1/1;
   }
   .scrollerBoxx{
-    height: 380px;
+    height: 340px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -237,5 +235,11 @@ body {
   #Facilities {
     position: relative;
     top: 800px;
+  }
+  .scrollerBoxx {
+    grid-auto-columns: 72%;
+  }
+  .scrollerBoxx{
+    height: 380px;
   }
 }

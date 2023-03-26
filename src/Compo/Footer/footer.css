@@ -59,9 +59,3 @@
     top:800px;
   }
 }
-@media screen and (max-width:426px) {
-  .FooterContainer{
-    position: relative;
-    top:850px;
-  }
-}
