@@ -79,6 +79,11 @@ body {
 
     grid-auto-columns: 22%;
   }
+
+  #Facilities {
+    position: relative;
+    top: -10px;
+  }
 }
 @media screen and (max-width: 1368px) {
   .scrollerBoxx {
@@ -91,11 +96,15 @@ body {
   
 }
 @media screen and (max-width: 1235px) {
-  .scrollerBoxx {
-    grid-auto-columns: 37%;
-  }
+
   .FacilityPhoto > img {
     aspect-ratio: 1/0.65;
+  }
+}
+@media screen and (max-width: 1166px) {
+  #Facilities {
+    position: relative;
+    top: 40px;
   }
 }
 @media screen and (max-width: 1122px) {
@@ -108,12 +117,37 @@ body {
     aspect-ratio: 1/0.73;
   }
 }
-
+@media screen and (max-width: 983px) {
+  #Facilities {
+    position: relative;
+    top: 50px;
+  }
+}
 @media screen and (max-width: 950px) {
   .FacilityPhoto > img {
     aspect-ratio: 1/0.75;
   }
 }
+
+@media screen and (max-width: 930px) {
+  #Facilities {
+    position: relative;
+    top: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #Facilities {
+    position: relative;
+    top: 90px;
+  }
+}
+@media screen and (max-width: 885px) {
+  #Facilities {
+    position: relative;
+    top: 290px;
+  }
+}
+
 @media screen and (max-width: 849px) {
   .FacilityPhoto > img {
     aspect-ratio: 1/0.85;
@@ -124,6 +158,13 @@ body {
     aspect-ratio: 1/0.9;
   }
 }
+@media screen and (max-width: 774px) {
+  #Facilities {
+    position: relative;
+    top: 305px;
+  }
+}
+
 @media screen and (max-width: 736px) {
   .FacilityPhoto > img {
     aspect-ratio: 1/1.001;
@@ -144,7 +185,20 @@ body {
   .FacilityPhoto > img {
     aspect-ratio: 1/0.83;
   }
+
+  #Facilities {
+    position: relative;
+    top: 350px;
+  }
 }
+
+@media screen and (max-width: 600px) {
+  #Facilities {
+    position: relative;
+    top: 800px;
+  }
+}
+
 @media screen and (max-width: 580px) {
   .FacilityPhoto > img {
     aspect-ratio: 1/0.8;
@@ -174,61 +228,7 @@ body {
     aspect-ratio: 1/1;
   }
   .scrollerBoxx{
-    height: 340px;
-  }
-}
-@media screen and (max-width: 1440px) {
-  #Facilities {
-    position: relative;
-    top: -10px;
-  }
-}
-@media screen and (max-width: 1166px) {
-  #Facilities {
-    position: relative;
-    top: 40px;
-  }
-}
-@media screen and (max-width: 983px) {
-  #Facilities {
-    position: relative;
-    top: 50px;
-  }
-}
-@media screen and (max-width: 930px) {
-  #Facilities {
-    position: relative;
-    top: 80px;
-  }
-}
-@media screen and (max-width: 900px) {
-  #Facilities {
-    position: relative;
-    top: 90px;
-  }
-}
-@media screen and (max-width: 885px) {
-  #Facilities {
-    position: relative;
-    top: 290px;
-  }
-}
-@media screen and (max-width: 774px) {
-  #Facilities {
-    position: relative;
-    top: 305px;
-  }
-}
-@media screen and (max-width: 627px) {
-  #Facilities {
-    position: relative;
-    top: 350px;
-  }
-}
-@media screen and (max-width: 600px) {
-  #Facilities {
-    position: relative;
-    top: 800px;
+    height: 400px;
   }
 }
 @media screen and (max-width: 422px) {
@@ -240,6 +240,7 @@ body {
     grid-auto-columns: 72%;
   }
   .scrollerBoxx{
-    height: 380px;
+    height: 420px;
   }
 }
+
