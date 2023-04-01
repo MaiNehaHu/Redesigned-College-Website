@@ -10,7 +10,7 @@ const AIML = () => {
       <div className="bodyy coursee" id="aiml">
         <h4 className="heading">Artificial Intelligence and Machine Learning</h4>
         <div className="displayblock">
-          <div id="aiml">
+          <div className="aiml">
             <img
               src="https://thumbs.dreamstime.com/b/digital-brain-background-abstract-digital-polygonal-brain-circuit-background-artificial-intelligence-innovation-concept-d-101783239.jpg"
               alt="aiml"

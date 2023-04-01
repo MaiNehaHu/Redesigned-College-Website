@@ -8,7 +8,7 @@ const MECH = () => {
     <div className="bodyy coursee" id="mech">
       <h4 className="heading">Mechanical Engineering</h4>
       <div className="displayblock">
-        <div id="mech">
+        <div className="mech">
           <img
             src="https://www.educationafter12th.com/wp-content/uploads/2016/06/Mechanical-Engineering-in-india-jobs-eligiblity-syllabus.jpg"
             alt="mech"

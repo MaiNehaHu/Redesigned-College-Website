@@ -9,7 +9,7 @@ const IT = () => {
     <div className="bodyy coursee" id="it">
       <h4 className="heading">Information Technology</h4>
       <div className="displayblock">
-        <div id="it">
+        <div className="it">
           <img
             src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5mb3JtYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
             alt="it"

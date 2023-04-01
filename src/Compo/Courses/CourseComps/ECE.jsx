@@ -9,7 +9,7 @@ const ECE = () => {
     <div className="bodyy coursee" id="ece">
       <h4 className="heading">Electronics and Communication Engineering </h4>
       <div className="displayblock">
-        <div id="ece">
+        <div className="ece">
           <img
             src="https://www.gniotgroup.edu.in/blog/wp-content/uploads/2019/07/8861.jpg"
             alt="ece"

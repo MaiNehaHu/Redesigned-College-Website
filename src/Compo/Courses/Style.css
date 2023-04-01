@@ -9,6 +9,7 @@ body {
 .scrollerBox {
   height: 480px;
   --_spacer: 15px;
+  margin: 10px 0px 0px;
   display: grid;
   gap: var(--_spacer);
   grid-auto-flow: column;
@@ -28,13 +29,14 @@ body {
   display: grid;
   grid-template-rows: max-content;
   gap: var(--_spacer);
-  padding: var(--_spacer);
+  padding: var(--_spacer) ;
 
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(76 0 255 / 55%);
   background-color: rgba(47, 0, 255, 0.15);
 
   cursor: default;
+  transition: all 0.5s ease;
 }
 
 .ele > img {
@@ -42,6 +44,9 @@ body {
   aspect-ratio: 1 / 0.95;
   object-fit: cover;
   border-radius: 8px;
+}
+.ele:hover{
+  transform: translateY(-10px);
 }
 
 .snaps-inline {

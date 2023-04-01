@@ -10,6 +10,7 @@ body {
   height: 480px;
   position: relative;
   top: -10px;
+  margin: 20px 0 10px;
   --_spacer: 15px;
   display: grid;
   gap: var(--_spacer);
@@ -36,6 +37,10 @@ body {
   background-color: rgba(47, 0, 255, 0.15);
 
   cursor: default;
+  transition: all 0.5s ease;
+}
+.BOXX:hover{
+  transform: translateY(-10px);
 }
 
 .FacilityPhoto > img {

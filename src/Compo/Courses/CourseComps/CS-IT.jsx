@@ -7,7 +7,7 @@ const CSIT = () => {
     <div className="bodyy coursee" id="cyber">
       <h4 className="heading">Computer Science - Information Technology</h4>
       <div className="displayblock">
-        <div id="cyber">
+        <div className="cyber">
           <img
             src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aW5mb3JtYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
             alt="cyber"
