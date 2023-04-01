@@ -95,10 +95,10 @@ body {
 @media screen and (max-width: 530px) {
   .scrollerBox {
     grid-auto-columns: 72%;
-    height: 350px;
+    height: 400px;
   }
   .ele {
-    height: 320px;
+    height: 370px;
   }
   .ele > img {
     inline-size: 100%;
