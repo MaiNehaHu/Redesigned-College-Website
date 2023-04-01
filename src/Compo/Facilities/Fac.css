@@ -10,7 +10,11 @@ body {
   height: 480px;
   position: relative;
   top: -10px;
+<<<<<<< HEAD
   margin: 20px 0 10px;
+=======
+  margin-top: 20px;
+>>>>>>> b0b61d4b956661af0b885c314f267988e66d8c86
   --_spacer: 15px;
   display: grid;
   gap: var(--_spacer);
@@ -39,7 +43,11 @@ body {
   cursor: default;
   transition: all 0.5s ease;
 }
+<<<<<<< HEAD
 .BOXX:hover{
+=======
+.BOXX:hover {
+>>>>>>> b0b61d4b956661af0b885c314f267988e66d8c86
   transform: translateY(-10px);
 }
 
@@ -62,7 +70,7 @@ body {
   height: 100px;
   color: darkblue;
   font-size: 21px;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,10 +106,8 @@ body {
   .FacilityPhoto > img {
     aspect-ratio: 1/0.6;
   }
-  
 }
 @media screen and (max-width: 1235px) {
-
   .FacilityPhoto > img {
     aspect-ratio: 1/0.65;
   }
@@ -226,13 +232,13 @@ body {
   .FacilityPhoto > img {
     aspect-ratio: 1/0.95;
   }
-  .scrollerBoxx{
+  .scrollerBoxx {
     height: 390px;
   }
   .FacilityPhoto > img {
     aspect-ratio: 1/1;
   }
-  .scrollerBoxx{
+  .scrollerBoxx {
     height: 400px;
   }
 }
@@ -244,8 +250,7 @@ body {
   .scrollerBoxx {
     grid-auto-columns: 72%;
   }
-  .scrollerBoxx{
+  .scrollerBoxx {
     height: 420px;
   }
 }
-
