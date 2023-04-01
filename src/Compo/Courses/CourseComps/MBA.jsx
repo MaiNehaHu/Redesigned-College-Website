@@ -5,7 +5,7 @@ const MBA = () => {
     <div className="bodyy coursee" id="mba">
       <h4 className="heading">Master of Business Administration</h4>
       <div className="displayblock">
-        <div id="mba">
+        <div className="mba">
           <img
             src="https://thumbs.dreamstime.com/b/mba-wood-letter-abbreviation-hand-writing-definition-63980867.jpg"
             alt="cse"

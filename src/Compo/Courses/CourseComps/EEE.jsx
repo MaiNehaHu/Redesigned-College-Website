@@ -9,7 +9,7 @@ const EEE = () => {
       <div className="bodyy coursee" id="cse">
         <h4 className="heading">Electronics and Electrical Engineering</h4>
         <div className="displayblock">
-          <div id="cse">
+          <div className="cse">
             <img
               src="https://w0.peakpx.com/wallpaper/821/954/HD-wallpaper-drawing-energy-static-cool-light-bulb-hand-electricity-fingers-energy-blue.jpg"
               alt="cse"

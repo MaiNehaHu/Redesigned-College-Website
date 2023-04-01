@@ -9,7 +9,7 @@ const CIVIL = () => {
     <div className="bodyy coursee" id="civil">
       <h4 className="heading">Civil Engineering</h4>
       <div className="displayblock">
-        <div id="civil">
+        <div className="civil">
           <img
             src="https://media.istockphoto.com/id/1184345473/photo/future-building-construction-engineering-project.jpg?s=612x612&w=0&k=20&c=mIv4yCtOd5pC3VuO01BNUa4xTGb2YUiPNU-9EGtQplQ="
             alt="civil"

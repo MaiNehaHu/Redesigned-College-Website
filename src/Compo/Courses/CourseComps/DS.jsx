@@ -8,7 +8,7 @@ const DS = () => {
       <div className="bodyy coursee" id="cyber">
         <h4 className="heading">Data Science</h4>
         <div className="displayblock">
-          <div id="cyber">
+          <div className="cyber">
             <img
               src="https://www.ethans.co.in/wp-content/uploads/2020/04/data-science-img.jpg"
               alt="cyber"

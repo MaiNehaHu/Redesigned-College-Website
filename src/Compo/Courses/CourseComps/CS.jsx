@@ -8,7 +8,7 @@ const CS = () => {
     <div className="bodyy coursee" id="cyber">
       <h4 className="heading">Cyber Security</h4>
       <div className="displayblock">
-        <div id="cyber">
+        <div className="cyber">
           <img
             src="https://media.istockphoto.com/photos/digital-cloud-security-background-concept-picture-id1331943958?b=1&k=20&m=1331943958&s=170667a&w=0&h=rgUhLZ3zSEoCI07y3dx1LWKne-bEp8qfjMC6dXsbtWU="
             alt="cyber"

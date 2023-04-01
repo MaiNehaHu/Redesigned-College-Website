@@ -35,6 +35,7 @@ body {
   background-color: rgba(47, 0, 255, 0.15);
 
   cursor: default;
+  transition: all 0.5s ease;
 }
 
 .ele > img {
@@ -42,6 +43,9 @@ body {
   aspect-ratio: 1 / 0.95;
   object-fit: cover;
   border-radius: 8px;
+}
+.ele:hover{
+  transform: translateY(-10px);
 }
 
 .snaps-inline {

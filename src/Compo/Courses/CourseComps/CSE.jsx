@@ -10,7 +10,7 @@ const CSE = () => {
       <div className="bodyy coursee" id="cse">
         <h4 className="heading">Computer Science</h4>
         <div className="displayblock">
-          <div id="cse">
+          <div className="cse">
             <img
               src="https://cdn.dal.ca/faculty/computerscience/cs-education/_jcr_content/contentPar/featureslider/featureSlider/featureslide/image.adaptive.910.high.jpg/1602699267504.jpg"
               alt="cse"
