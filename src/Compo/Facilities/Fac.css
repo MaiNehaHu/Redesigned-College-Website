@@ -24,11 +24,11 @@ body {
 }
 
 .BOXX {
+  height: 430px;
   display: grid;
   grid-template-rows: max-content;
   gap: var(--_spacer);
   padding: var(--_spacer);
-  margin-bottom: 10px;
 
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(76 0 255 / 55%);
@@ -82,14 +82,15 @@ body {
     height: 440px;
   }
   .BOXX {
-    height: 400px;
+    height: 390px;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 630px) {
   .scrollerBoxx{
     grid-auto-columns: 58%;
-    height: 490px;
+    height: 470px;
   }
   .BOXX {
     height: 420px;  
@@ -103,7 +104,6 @@ body {
   }
   .BOXX{
     height: 410px;
-    margin-bottom: 10px;
   }
 }
 

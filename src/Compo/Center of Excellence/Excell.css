@@ -1,5 +1,7 @@
 .ContentBox {
   width: 100vw;
+  position: relative;
+  top: 5px;
 }
 
 #ExcellenceBox {
@@ -88,24 +90,29 @@
 @media screen and (max-width:1169px) {
   .ContentBox {
     position: relative;
-    top:60px
+    top:55px
   }
 }
 
-@media screen and (max-width:933px) and (min-width:884px) {
+@media screen and (max-width:933px) {
   .ContentBox {
     position: relative;
-    top:90px
+    top:95px
   }
 }
 
 @media screen and (max-width:884px) {
   .ContentBox {
     position: relative;
-    top:320px
+    top:300px
   }
 }
-
+@media screen and (max-width:780px) {
+  .ContentBox {
+    position: relative;
+    top:310px
+  }
+}
 
 @media screen and (max-width:630px) {
   .ContentBox {

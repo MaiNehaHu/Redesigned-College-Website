@@ -25,9 +25,10 @@ body {
 }
 
 .ele {
-  height: 440px;
+  height: 430px;
   display: grid;
   margin-bottom: 10px;
+  margin-top: 20px;
   grid-template-rows: max-content;
   gap: var(--_spacer);
   padding: var(--_spacer) ;
@@ -64,7 +65,7 @@ body {
 }
 @media screen and (max-width: 1440px) {
   .scrollerBox {
-    height: 400px;
+    height: 420px;
   }
   .ele {
     height: 370px;
