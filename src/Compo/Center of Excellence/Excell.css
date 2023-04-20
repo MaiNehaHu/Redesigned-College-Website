@@ -30,6 +30,7 @@
   width: 36vw;
   font-family: "Mukta", sans-serif;
   color: navy;
+  word-wrap: break-word;
   margin: 0px 5px 0px;
 }
 .Pic {
@@ -101,29 +102,22 @@
 @media screen and (max-width:884px) {
   .ContentBox {
     position: relative;
-    top:300px
+    top:320px
   }
 }
 
 
-@media screen and (max-width:629px) {
+@media screen and (max-width:630px) {
   .ContentBox {
     position: relative;
-    top:350px
+    top:360px
   }
 }
 @media screen and (max-width:600px) {
   .ContentBox {
     position: relative;
-    top:800px
+    top:810px
   }
-}
-@media screen and (max-width:422px) {
-  .ContentBox {
-    position: relative;
-    top:800px
-  }
-
 }
 @media screen and (max-width:530px) {
   .Conttent{

@@ -9,11 +9,13 @@ export const FacDisplayAlgo = ({ data, index }) => {
         <>
           <div id="FacilityBox">
             <Link to={item.Link}>
-              <div className="FacilityPhoto">
-                <img src={item.images} alt={item.alternative} />
-              </div>
-              <div className="Description">
-                <p>{item.Text}</p>
+              <div>
+                <div className="FacilityPhoto">
+                  <img src={item.images} alt={item.alternative} />
+                </div>
+                <div className="Description">
+                  <p>{item.Text}</p>
+                </div>
               </div>
             </Link>
           </div>

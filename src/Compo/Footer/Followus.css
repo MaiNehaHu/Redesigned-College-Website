@@ -21,6 +21,12 @@
 .Follow > div > i:hover {
   width: auto;
 }
+.flex-down{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 /*for the icons used*/
 .fa {
   color: white;

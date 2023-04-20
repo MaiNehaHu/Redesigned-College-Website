@@ -5,13 +5,10 @@
 body {
   font-family: sans-serif;
 }
-
 .scrollerBoxx {
   height: 480px;
-  position: relative;
-  top: -10px;
-  margin: 20px 0 10px;
   --_spacer: 15px;
+  margin: 10px 0px 0px;
   display: grid;
   gap: var(--_spacer);
   grid-auto-flow: column;
@@ -49,6 +46,7 @@ body {
   object-fit: cover;
   border-radius: 8px;
 }
+
 .snaps-inline {
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: var(--_spacer, 1rem);
@@ -56,6 +54,56 @@ body {
 
 .snaps-inline > * {
   scroll-snap-align: start;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollerBoxx {
+    height: 400px;
+    grid-auto-columns: 22%;
+  }
+  .BOXX {
+    height: 370px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 1122px) {
+  .scrollerBoxx {
+    grid-auto-columns: 27%;
+  }
+  .BOXX {
+    height: 360px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 883px) {
+  .scrollerBoxx {
+    grid-auto-columns: 39%;
+    height: 440px;
+  }
+  .BOXX {
+    height: 400px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .scrollerBoxx{
+    grid-auto-columns: 58%;
+    height: 490px;
+  }
+  .BOXX {
+    height: 420px;  
+  }
+}
+@media screen and (max-width: 530px) {
+  .scrollerBoxx{
+    grid-auto-columns: 72%;
+    height: 460px;
+    padding: 0px 10px 0px;
+  }
+  .BOXX{
+    height: 410px;
+    margin-bottom: 10px;
+  }
 }
 
 .Description {
@@ -79,31 +127,9 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-  .scrollerBoxx {
-    height: 450px;
-
-    grid-auto-columns: 22%;
-  }
-
   #Facilities {
     position: relative;
     top: -10px;
-  }
-}
-@media screen and (max-width: 1368px) {
-  .scrollerBoxx {
-    grid-auto-columns: 37%;
-  }
-
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.6;
-  }
-  
-}
-@media screen and (max-width: 1235px) {
-
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.65;
   }
 }
 @media screen and (max-width: 1166px) {
@@ -112,28 +138,12 @@ body {
     top: 40px;
   }
 }
-@media screen and (max-width: 1122px) {
-  .scrollerBoxx {
-    grid-auto-columns: 42%;
-  }
-}
-@media screen and (max-width: 1049px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.73;
-  }
-}
 @media screen and (max-width: 983px) {
   #Facilities {
     position: relative;
     top: 50px;
   }
 }
-@media screen and (max-width: 950px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.75;
-  }
-}
-
 @media screen and (max-width: 930px) {
   #Facilities {
     position: relative;
@@ -152,51 +162,19 @@ body {
     top: 290px;
   }
 }
-
-@media screen and (max-width: 849px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.85;
-  }
-}
-@media screen and (max-width: 790px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.9;
-  }
-}
 @media screen and (max-width: 774px) {
   #Facilities {
     position: relative;
     top: 305px;
   }
 }
-
-@media screen and (max-width: 736px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/1.001;
-  }
-  .scrollerBoxx {
-    height: 430px;
-  }
-}
-@media screen and (max-width: 666px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/1;
-  }
-}
 @media screen and (max-width: 630px) {
-  .scrollerBoxx {
-    grid-auto-columns: 58%;
-  }
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.83;
-  }
 
   #Facilities {
     position: relative;
     top: 350px;
   }
 }
-
 @media screen and (max-width: 600px) {
   #Facilities {
     position: relative;
@@ -204,38 +182,6 @@ body {
   }
 }
 
-@media screen and (max-width: 580px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.8;
-  }
-}
-@media screen and (max-width: 530px) {
-  .scrollerBoxx {
-    grid-auto-columns: 58%;
-  }
-  .FacilityPhoto > img {
-    inline-size: 100%;
-    aspect-ratio: 1 / 0.9;
-  }
-  .scrollerBoxx {
-    padding: 0px 10px 0px;
-    height: 410px;
-  }
-}
-@media screen and (max-width: 488px) {
-  .FacilityPhoto > img {
-    aspect-ratio: 1/0.95;
-  }
-  .scrollerBoxx{
-    height: 390px;
-  }
-  .FacilityPhoto > img {
-    aspect-ratio: 1/1;
-  }
-  .scrollerBoxx{
-    height: 400px;
-  }
-}
 @media screen and (max-width: 422px) {
   #Facilities {
     position: relative;
@@ -243,9 +189,6 @@ body {
   }
   .scrollerBoxx {
     grid-auto-columns: 72%;
-  }
-  .scrollerBoxx{
-    height: 420px;
   }
 }
 

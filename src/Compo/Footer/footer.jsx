@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Followus } from "./Followus";
 import "./footer.css";
-import "./Heights.css";
+
 
 export const Footer = () => {
   return (

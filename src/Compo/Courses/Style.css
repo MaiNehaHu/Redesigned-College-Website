@@ -88,29 +88,28 @@ body {
     height: 440px;
   }
   .ele {
-    height: 410px;
+    height: 400px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 630px) {
-  .scrollerBox {
+  .scrollerBox{
     grid-auto-columns: 58%;
-    height: 440px;
+    height: 490px;
+  }
+  .ele {
+    height: 420px;  
   }
 }
 @media screen and (max-width: 530px) {
-  .scrollerBox {
+  .scrollerBox{
     grid-auto-columns: 72%;
-    height: 400px;
-  }
-  .ele {
-    height: 370px;
-  }
-  .ele > img {
-    inline-size: 100%;
-    aspect-ratio: 1 / 0.8;
-  }
-  .scrollerBox {
+    height: 460px;
     padding: 0px 10px 0px;
+  }
+  .ele{
+    height: 410px;
+    margin-bottom: 10px;
   }
 }
 
