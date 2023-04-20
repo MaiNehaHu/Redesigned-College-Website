@@ -27,6 +27,7 @@ body {
 .ele {
   height: 440px;
   display: grid;
+  margin-bottom: 10px;
   grid-template-rows: max-content;
   gap: var(--_spacer);
   padding: var(--_spacer) ;
@@ -88,8 +89,9 @@ body {
     height: 440px;
   }
   .ele {
-    height: 400px;
+    height: 390px;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 630px) {

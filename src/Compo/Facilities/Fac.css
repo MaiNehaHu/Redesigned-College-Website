@@ -28,6 +28,7 @@ body {
   grid-template-rows: max-content;
   gap: var(--_spacer);
   padding: var(--_spacer);
+  margin-bottom: 10px;
 
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(76 0 255 / 55%);
@@ -107,16 +108,11 @@ body {
 }
 
 .Description {
-  height: 100px;
   color: darkblue;
   font-size: 21px;
- 
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: "Acme", sans-serif;
-  position: relative;
-  top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 #Facilities > .scrollerBoxx > .BOXX > a {

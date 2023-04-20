@@ -7,9 +7,9 @@ export const FacDisplayAlgo = ({ data, index }) => {
     <>
       {data[index].map((item) => (
         <>
-          <div id="FacilityBox">
+          <div id="FacilityBox" key={index}>
             <Link to={item.Link}>
-              <div>
+              <div className="BOXX">
                 <div className="FacilityPhoto">
                   <img src={item.images} alt={item.alternative} />
                 </div>

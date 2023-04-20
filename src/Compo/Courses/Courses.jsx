@@ -9,40 +9,40 @@ export const Courses = () => {
       <div className="Component">
         <h1 id="headingOfCompo">Our Courses</h1>
         <div className="scrollerBox snaps-inline">
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={0} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={1} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={2} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={3} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={4} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={5} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={6} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={7} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={8} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={9} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={10} />
           </div>
-          <div className="elem">
+          <div >
             <CourseDisplayAlgo data={CourseData} index={11} />
           </div>
         </div>
