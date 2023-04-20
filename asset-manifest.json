@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Redesigned-College-Website/static/css/main.d43cc1e5.css",
-    "main.js": "/Redesigned-College-Website/static/js/main.17304ce1.js",
+    "main.css": "/Redesigned-College-Website/static/css/main.9444d6fe.css",
+    "main.js": "/Redesigned-College-Website/static/js/main.dc3d4f00.js",
     "static/js/787.9ce9f379.chunk.js": "/Redesigned-College-Website/static/js/787.9ce9f379.chunk.js",
     "index.html": "/Redesigned-College-Website/index.html",
-    "main.d43cc1e5.css.map": "/Redesigned-College-Website/static/css/main.d43cc1e5.css.map",
-    "main.17304ce1.js.map": "/Redesigned-College-Website/static/js/main.17304ce1.js.map",
+    "main.9444d6fe.css.map": "/Redesigned-College-Website/static/css/main.9444d6fe.css.map",
+    "main.dc3d4f00.js.map": "/Redesigned-College-Website/static/js/main.dc3d4f00.js.map",
     "787.9ce9f379.chunk.js.map": "/Redesigned-College-Website/static/js/787.9ce9f379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d43cc1e5.css",
-    "static/js/main.17304ce1.js"
+    "static/css/main.9444d6fe.css",
+    "static/js/main.dc3d4f00.js"
   ]
 }
